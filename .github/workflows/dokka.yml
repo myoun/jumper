@@ -18,7 +18,7 @@ jobs:
         run: |
           dos2unix gradlew
           chmod +x gradlew
-          ./gradlew javadocJar
+          ./gradlew dokkaJar
       - name: Github Pages Upload
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
