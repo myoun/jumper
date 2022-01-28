@@ -1,0 +1,3 @@
+name : jumper
+version : 1.0.0
+main : live.myoun.jumper.plugin.JumperPlugin
